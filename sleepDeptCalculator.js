@@ -41,9 +41,9 @@ const calculateSleepDept = () => {
   	if(actualSleepHours === idealSleepHours) {
       console.log(`You got ${idealSleepHours} hour(s) of sleep you're spot on! Keep it up`);
     } else if (actualSleepHours > idealSleepHours) {
-      console.log(`You got ${actualSleepHours + idealSleepHours} hour(s) more sleep than you needed this week. Time to move lazy ass!`);
+      console.log(`You got ${idealSleepHours - actualSleepHours} hour(s) more sleep than you needed this week. Time to move lazy ass!`);
     } else {
-      console.log(`You got ${actualSleepHours - idealSleepHours} hour(s) less sleep than you needed this week. Get some rest.`);
+      console.log(`You got ${idealSleepHours - actualSleepHours} hour(s) less sleep than you needed this week. Get some rest.`);
     }
 
 };
