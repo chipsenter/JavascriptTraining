@@ -1,3 +1,5 @@
+// Output how many vowels this string has Test functions Output the outcome!
+
 const input = 'The squeaky wheel gets the grease.';
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 let resultArray = [];
@@ -12,4 +14,4 @@ let resultArray = [];
       resultArray.push(input[inputIndex]);
       }
  	  }
-		console.log('The Whale says : ' + resultArray.join('').toUpperCase() + '!'); 
+		console.log('The Whale says : ' + resultArray.join('').toUpperCase() + '!');
